@@ -1,0 +1,380 @@
+/*font start...................................................................................................*/
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir.eot') format('eot'),
+         url('../fonts/vazir.ttf')  format('truetype'),
+         url('../fonts/vazir.woff') format('woff2'),
+         url('../fonts/vazir.woff2') format('woff'),
+    
+  }
+  /*font start...................................................................................................*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+   
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+    font-family: 'vazir';
+    direction: rtl;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+   font-size: 20px;
+   
+   
+
+}
+header{
+    width: 100%;
+    position: relative;
+    background-image: url(image/little3.jpg);
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover ;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+}
+.titr{
+    position: absolute;
+    top:150%;
+    right: 0;
+    left: 0%;
+    color: #fff;
+  
+    text-align: center;
+  }
+  header .titr h1{
+      margin-top: 100px;
+    font-size: 50px;
+  }
+  header .titr p{
+    font-size: 40px;
+  }
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #fff;
+}
+.Intro{
+text-align: center;
+width: 50%;
+justify-content: space-between;
+background-color: silver;
+margin-top: 30px;
+padding: 10px 0px;
+}
+.row{
+    display: flex;
+}
+.mainIntro{
+    background-color: silver;
+}
+.Introimg{
+    width: 50%;
+    justify-content: space-between;
+    background-color: silver;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.Introimg img{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+.Intro h2{
+    margin-top: 150px;
+   
+    font-size: 30px;
+}
+.Intro p{
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 30px;
+    margin: auto;
+}
+/* parala start....................................................................................................*/
+#parala{
+    width: 100%;
+    background-image: url(image/little1.jpg);
+    justify-content: center;
+    height: 550px;
+padding: 100px 0;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed ;
+position: relative;
+align-items: center;
+}
+#parala .paraladiv {
+    
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+}
+#parala .paraladiv h1{
+    font-size: 45px;
+}
+#parala .paraladiv p{
+    margin: auto;
+    font-size: 20px;
+    width: 650px;
+    line-height: 30px;
+}
+/* parala start....................................................................................................*/
+
+#oldbook{
+    background-color: silver;
+    width: 100%;
+    height: 500px;
+    padding: 100px 0;
+    display: flex;
+padding: 50px 0px;
+
+}
+#oldbook .oldbook-div{
+    width: 50%;
+    text-align: center;
+    justify-content: space-between;
+}
+#oldbook .oldbook-div h2{
+font-size: 40px;
+}
+#oldbook .oldbook-div p{
+    font-size: 21px;
+    line-height: 30px;
+    margin: auto;
+    width: 550px;
+    margin-bottom: 30px;
+
+}
+#oldbook .oldbook-div a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+    border-bottom:1px solid #b61111;
+}
+#oldbook .oldbook-img{
+    width: 50%;
+    justify-content: space-between;
+}
+#oldbook .oldbook-img img{
+    width: 95%;
+    height: 200px;
+}
+#oldbook .oldbook-img ul{
+    width: 100%;
+    list-style: none;
+}
+#oldbook .oldbook-img ul li{
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  
+  }
+
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+ 
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: grey;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .container1{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+  }
+  
+ /*shazde start....................................................................................................*/
+ .shazde{
+    background-image: url('image/123.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 100px 0;
+    height: 550px;
+    position: relative;
+}
+
+.shazde .shazde-title{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+.shazde .shazde-title h2{
+    font-size: 30px;
+    
+}
+
+.shazde .shazde-title p{
+    font-size: 21px;
+}
+/*shazde end....................................................................................................*/
+/*footer start...........................................................................................*/
+.footer{
+    padding: 50px 0px;
+    display: flex;
+    width: 100%;
+    background-color: #343a40;
+}
+.mrm {
+    justify-content: space-between;
+    
+    height: 300px;
+    align-items: center;
+  border-right: 1px solid;
+}
+
+.bi{
+    color: black;
+}
+.bi:hover{
+    height: 35px;
+    width: 35px;
+    color: red;
+}
+.copy-icon{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    
+    z-index: 1;
+}
+
+.mrmb{
+    text-align: center;
+align-items: center;
+padding: 5px ;
+}
+.about-footer h2{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.about-footer p{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+}
+.footer-h1{
+    font-size: 25px;
+    color: black;
+}
